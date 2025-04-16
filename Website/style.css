@@ -3,7 +3,24 @@ body {
 }
 
 h1 {
-    color: green
+
+    border: 3px solid black;
+    border-radius: 10px;
+    color: green;
+    font-family: Montserrat, helvetica, arial;
+}
+
+p {
+    border-bottom: 3px solid red;
+    border-top: 3px solid yellow;
+    border-left: 3px dotted orange;
+    border-right: 3px dotted green;
+
+    font-family: helvetica, "lucida console", "courier new";
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+
 }
 
 .odd {
@@ -11,5 +28,5 @@ h1 {
 }
 
 .even {
-    color: blue;
+    color: blue
 }
