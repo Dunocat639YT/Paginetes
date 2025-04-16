@@ -1,79 +1,174 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 <head>
     <title>My first website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <h1>
-        Aquest és lo senyor David
-    </h1>
+    <h1>Aquest és lo senyor David</h1>
 
+    <!-- How to import images with a link button -->
     <a href="https://www.google.com/">
         <img src="Images/Davidxd.jpg" height="400">
     </a>
 
     <br>
 
+    <!-- How to import videos with a link button -->
     <video height="400" controls loop>
         <source src="Videos/Davidxd2.mp4" type="video/mp4">
     </video>
 
 
+    <!-- Different types of text -->
+
+    <p>This is normal text</p>
+
+    <p>This is <b>bold</b> text</p>
+
+    <p>This is <i>italic</i> text</p>
+
+    <p>This is <u>underlined</u> text</p>
+
+    <p>This is <del>deleted</del> text</p>
+
+    <p>This is <big>big</big> text</p>
+
+    <p>This is <small>small</small> text</p>
+
+    <p>This is <sub>subscript</sub> text</p>
+
+    <p>This is <sup>supercript</sup> text</p>
+
+    <p>This is <tt>monospace</tt> text</p>
+
+    <p>This is <mark style="background-color: lightgreen;">highlighted</mark> text</p>
+
+
+    <!-- <span> is an inline conainer to group elements for styling -->
+    <!-- <div> is a block conainer to group elements for styling -->
+
+    <h1><span style="background-color: tomato;">
+        This is a span title
+    </h1></span>
+
+    <h1><div style="background-color: cyan;">
+        This is a div title
+    </h1></div>
+
+    <p><span style="background-color: tomato;">
+        This is a span sentence.
+    </p></span>
+
+    <p><div style="background-color: cyan;">
+        This is a div sentence.
+    </p></div>
+
     <p>
-        This is normal text
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span style="background-color: tomato;">Possimus consectetur accusamus iure nobis reiciendis illo. Ad praesentium voluptatem fugiat corrupti eum quis, mollitia voluptatibus vel eius cum in ducimus veritatis.</span>
     </p>
 
     <p>
-        This is <b>bold</b> text
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <div style="background-color: cyan;">Natus, modi quis incidunt ipsa officia minus mollitia minima earum obcaecati sed possimus aliquam qui praesentium aperiam cumque necessitatibus laborum dicta officiis!</div>
     </p>
 
-    <p>
-        This is <i>italic</i> text
-    </p>
 
-    <p>
-        This is <u>underlined</u> text
-    </p>
+    <!-- Unordered List -->
+    <h4>Groceries</h4>
+    <ul>
+        <li>Milk</li>
+        <li>Eggs</li>
+        <li>Bread</li>
+        <li>Coffee supplies</li>
+        <ul>
+            <li>Coffe beans</li>
+            <li>Creamer</li>
+            <li>Sugar</li>
+        </ul>
 
-    <p>
-        This is <del>deleted</del> text
-    </p>
+    </ul>
 
-    <p>
-        This is <big>big</big> text
-    </p>
+    <!-- Ordered List -->
+    <h4>To do list</h4>
+    <ol>
+        <li>Eat brakfast</li>
+        <li>Go to school</li>
+        <li>Walk dog</li>
+        <li>Work</li>
+    </ol>
 
-    <p>
-        This is <small>small</small> text
-    </p>
+    <!-- Description List -->
+    <h4>Mythical creatures</h4>
+    <dl style="background-color: lightgreen; border:2px solid">
+        <dt>Dragon</dt>
+        <dd>A mythical monster resembling a giant reptile, sometimes shown as having wings. In European tradition the dragon is typically fire-breathing and tends to symbolize chaos or evil, whereas in East Asia it is usually a beneficent symbol of fertility, associated with water and the heavens.</dd>
+        <dt>Phoenix</dt>
+        <dd>A unique bird that lived for five or six centuries in the Arabian desert, after this time burning itself on a funeral pyre and rising from the ashes with renewed youth to live through another cycle.</dd>
+        <dt>Vampire</dt>
+        <dd>A corpse supposed to leave its grave at night to drink the blood of the living by biting their necks with long pointed canine teeth.</dd>
+        <dt>Werewolf</dt>
+        <dd>A person who changes for periods of time into a wolf, typically when there is a full moon.</dd>
+    </dl>
 
-    <p>
-        This is <sub>subscript</sub> text
-    </p>
 
-    <p>
-        This is <sup>supercript</sup> text
-    </p>
+    <!-- How to create a table -->
+    <h3>Store Hours</h3>
 
-    <p>
-        This is <tt>monospace</tt> text
-    </p>
+    <table border="1" style="background-color: black;">
+        <tr align="center" style="background-color: lightblue;">
+            <th width="100">Sunday</th>
+            <th width="100">Monday</th>
+            <th width="100">Tuesday</th>
+            <th width="100">Wednesday</th>
+            <th width="100">Thursday</th>
+            <th width="100">Friday</th>
+            <th width="100">Saturday</th>
+        </tr>
+        <tr align="center" style="background-color: aliceblue;">
+            <td>Closed</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>10-2</td>
+        </tr>
+    </table>
 
-    <p>
-        This is <mark style="background-color: lightgreen;">highlighted</mark> text
-    </p>
+    <br>
+    <br>
 
-    <h1><span style="background-color: tomato;">This is a span title</h1></span>
+    <!-- How to create a button -->
+    <button onclick="doSomething()" style="font-size: 25px; background-color: grey; color:lightblue; border-radius: 25px;">
+        Click me!
+    </button>
 
-    <h1>
-        <div style="background-color: cyan;">This is a span title
-    </h1>
-    </div>
+    <!-- A little of JavaScript with the button -->
+    <p id="Greeting">Hello</p>
+
+    <script>
+        function doSomething(){
+            document.getElementById("Greeting").innerHTML = "Goodbye"
+        }
+    </script>
+
+    <br>
+
+
+    <!-- How to make a form -->
+    <form action="index.php" method="post">
+
+        <label for="Username">Username:</label>
+        <input type="text" id="Username">
+
+        <input type="submit">
+
+    </form>
 
 </body>
-
 
 </html>
