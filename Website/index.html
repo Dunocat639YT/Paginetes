@@ -6,168 +6,237 @@
     <title>My first website</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Aquest és lo senyor David</h1>
+    <header style="background-color: mediumpurple">
+        <h1>Welcome to my page!</h1>
+        <a href="">Home</a>
+        <a href="">About Us</a>
+        <a href="">Products</a>
+        <a href="">Contact Us</a>
+        <hr>
+    </header>
 
-    <!-- How to import images with a link button -->
-    <a href="https://www.google.com/">
-        <img src="Images/Davidxd.jpg" height="400">
-    </a>
+    <main>
+        <h3>Aquest és lo senyor David:</h3>
 
-    <br>
+        <!-- How to import images with a link button -->
+        <a href="https://www.google.com/">
+            <img src="Images/Davidxd.jpg" height="400">
+        </a>
 
-    <!-- How to import videos with a link button -->
-    <video height="400" controls loop>
-        <source src="Videos/Davidxd2.mp4" type="video/mp4">
-    </video>
+        <br>
 
-
-    <!-- Different types of text -->
-
-    <p>This is normal text</p>
-
-    <p>This is <b>bold</b> text</p>
-
-    <p>This is <i>italic</i> text</p>
-
-    <p>This is <u>underlined</u> text</p>
-
-    <p>This is <del>deleted</del> text</p>
-
-    <p>This is <big>big</big> text</p>
-
-    <p>This is <small>small</small> text</p>
-
-    <p>This is <sub>subscript</sub> text</p>
-
-    <p>This is <sup>supercript</sup> text</p>
-
-    <p>This is <tt>monospace</tt> text</p>
-
-    <p>This is <mark style="background-color: lightgreen;">highlighted</mark> text</p>
+        <!-- How to import videos with a link button -->
+        <video height="400" controls loop>
+            <source src="Videos/Davidxd2.mp4" type="video/mp4">
+        </video>
 
 
-    <!-- <span> is an inline conainer to group elements for styling -->
-    <!-- <div> is a block conainer to group elements for styling -->
+        <!-- Different types of text -->
+        <p>This is normal text</p>
 
-    <h1><span style="background-color: tomato;">
-        This is a span title
-    </h1></span>
+        <p>This is <b>bold</b> text</p>
 
-    <h1><div style="background-color: cyan;">
-        This is a div title
-    </h1></div>
+        <p>This is <i>italic</i> text</p>
 
-    <p><span style="background-color: tomato;">
-        This is a span sentence.
-    </p></span>
+        <p>This is <u>underlined</u> text</p>
 
-    <p><div style="background-color: cyan;">
-        This is a div sentence.
-    </p></div>
+        <p>This is <del>deleted</del> text</p>
 
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span style="background-color: tomato;">Possimus consectetur accusamus iure nobis reiciendis illo. Ad praesentium voluptatem fugiat corrupti eum quis, mollitia voluptatibus vel eius cum in ducimus veritatis.</span>
-    </p>
+        <p>This is <big>big</big> text</p>
 
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. <div style="background-color: cyan;">Natus, modi quis incidunt ipsa officia minus mollitia minima earum obcaecati sed possimus aliquam qui praesentium aperiam cumque necessitatibus laborum dicta officiis!</div>
-    </p>
+        <p>This is <small>small</small> text</p>
+
+        <p>This is <sub>subscript</sub> text</p>
+
+        <p>This is <sup>supercript</sup> text</p>
+
+        <p>This is <tt>monospace</tt> text</p>
+
+        <p>This is <mark style="background-color: lightgreen;">highlighted</mark> text</p>
 
 
-    <!-- Unordered List -->
-    <h4>Groceries</h4>
-    <ul>
-        <li>Milk</li>
-        <li>Eggs</li>
-        <li>Bread</li>
-        <li>Coffee supplies</li>
+        <!-- <span> is an inline conainer to group elements for styling -->
+        <!-- <div> is a block conainer to group elements for styling -->
+        <h1><span style="background-color: tomato;">
+            This is a span title
+        </h1></span>
+
+        <h1><div style="background-color: cyan;">
+            This is a div title
+        </h1></div>
+
+        <p><span style="background-color: tomato;">
+            This is a span sentence.
+        </p></span>
+
+        <p><div style="background-color: cyan;">
+            This is a div sentence.
+        </p></div>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span style="background-color: tomato;">Possimus consectetur accusamus iure nobis reiciendis illo. Ad praesentium voluptatem fugiat corrupti eum quis, mollitia voluptatibus vel eius cum in ducimus veritatis.</span>
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <div style="background-color: cyan;">Natus, modi quis incidunt ipsa officia minus mollitia minima earum obcaecati sed possimus aliquam qui praesentium aperiam cumque necessitatibus laborum dicta officiis!</div>
+        </p>
+
+
+        <!-- Unordered List -->
+        <h4>Groceries</h4>
         <ul>
-            <li>Coffe beans</li>
-            <li>Creamer</li>
-            <li>Sugar</li>
+            <li>Milk</li>
+            <li>Eggs</li>
+            <li>Bread</li>
+            <li>Coffee supplies</li>
+            <ul>
+                <li>Coffe beans</li>
+                <li>Creamer</li>
+                <li>Sugar</li>
+            </ul>
+
         </ul>
 
-    </ul>
+        <!-- Ordered List -->
+        <h4>To do list</h4>
+        <ol>
+            <li>Eat brakfast</li>
+            <li>Go to school</li>
+            <li>Walk dog</li>
+            <li>Work</li>
+        </ol>
 
-    <!-- Ordered List -->
-    <h4>To do list</h4>
-    <ol>
-        <li>Eat brakfast</li>
-        <li>Go to school</li>
-        <li>Walk dog</li>
-        <li>Work</li>
-    </ol>
-
-    <!-- Description List -->
-    <h4>Mythical creatures</h4>
-    <dl style="background-color: lightgreen; border:2px solid">
-        <dt>Dragon</dt>
-        <dd>A mythical monster resembling a giant reptile, sometimes shown as having wings. In European tradition the dragon is typically fire-breathing and tends to symbolize chaos or evil, whereas in East Asia it is usually a beneficent symbol of fertility, associated with water and the heavens.</dd>
-        <dt>Phoenix</dt>
-        <dd>A unique bird that lived for five or six centuries in the Arabian desert, after this time burning itself on a funeral pyre and rising from the ashes with renewed youth to live through another cycle.</dd>
-        <dt>Vampire</dt>
-        <dd>A corpse supposed to leave its grave at night to drink the blood of the living by biting their necks with long pointed canine teeth.</dd>
-        <dt>Werewolf</dt>
-        <dd>A person who changes for periods of time into a wolf, typically when there is a full moon.</dd>
-    </dl>
+        <!-- Description List -->
+        <h4>Mythical creatures</h4>
+        <dl style="background-color: lightgreen; border:2px solid">
+            <dt>Dragon</dt>
+            <dd>A mythical monster resembling a giant reptile, sometimes shown as having wings. In European tradition the dragon is typically fire-breathing and tends to symbolize chaos or evil, whereas in East Asia it is usually a beneficent symbol of fertility, associated with water and the heavens.</dd>
+            <dt>Phoenix</dt>
+            <dd>A unique bird that lived for five or six centuries in the Arabian desert, after this time burning itself on a funeral pyre and rising from the ashes with renewed youth to live through another cycle.</dd>
+            <dt>Vampire</dt>
+            <dd>A corpse supposed to leave its grave at night to drink the blood of the living by biting their necks with long pointed canine teeth.</dd>
+            <dt>Werewolf</dt>
+            <dd>A person who changes for periods of time into a wolf, typically when there is a full moon.</dd>
+        </dl>
 
 
-    <!-- How to create a table -->
-    <h3>Store Hours</h3>
+        <!-- How to create a table -->
+        <h3>Store Hours</h3>
 
-    <table border="1" style="background-color: black;">
-        <tr align="center" style="background-color: lightblue;">
-            <th width="100">Sunday</th>
-            <th width="100">Monday</th>
-            <th width="100">Tuesday</th>
-            <th width="100">Wednesday</th>
-            <th width="100">Thursday</th>
-            <th width="100">Friday</th>
-            <th width="100">Saturday</th>
-        </tr>
-        <tr align="center" style="background-color: aliceblue;">
-            <td>Closed</td>
-            <td>9-5</td>
-            <td>9-5</td>
-            <td>9-5</td>
-            <td>9-5</td>
-            <td>9-5</td>
-            <td>10-2</td>
-        </tr>
-    </table>
+        <table border="1" style="background-color: black;">
+            <tr align="center" style="background-color: lightblue;">
+                <th width="100">Sunday</th>
+                <th width="100">Monday</th>
+                <th width="100">Tuesday</th>
+                <th width="100">Wednesday</th>
+                <th width="100">Thursday</th>
+                <th width="100">Friday</th>
+                <th width="100">Saturday</th>
+            </tr>
+            <tr align="center" style="background-color: aliceblue;">
+                <td>Closed</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>10-2</td>
+            </tr>
+        </table>
 
-    <br>
-    <br>
+        <br>
+        <br>
 
-    <!-- How to create a button -->
-    <button onclick="doSomething()" style="font-size: 25px; background-color: grey; color:lightblue; border-radius: 25px;">
-        Click me!
-    </button>
+        <!-- How to create a button -->
+        <button onclick="doSomething()" style="font-size: 25px; background-color: grey; color:lightblue; border-radius: 25px;">
+            Click me!
+        </button>
 
-    <!-- A little of JavaScript with the button -->
-    <p id="Greeting">Hello</p>
+        <!-- A little of JavaScript with the button -->
+        <p id="Greeting">Hello</p>
 
-    <script>
-        function doSomething(){
-            document.getElementById("Greeting").innerHTML = "Goodbye"
-        }
-    </script>
+        <script>
+            function doSomething(){
+                document.getElementById("Greeting").innerHTML = "Goodbye"
+            }
+        </script>
 
-    <br>
+        <br>
 
 
-    <!-- How to make a form -->
-    <form action="index.php" method="post">
+        <!-- How to make a form -->
+        <form action="index.php" method="post" enctype="multipart/form-data">
 
-        <label for="Username">Username:</label>
-        <input type="text" id="Username">
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="SpongeBob" minlength="6" maxlength="15" required><br>
+        
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Krabby_Patty123" minlength="6" maxlength="16" required><br>
 
-        <input type="submit">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="squarepants@gmail.com" required><br>
 
-    </form>
+            <label for="phone">Phone number:</label>
+            <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12" required><br>
+
+            <label for="bday">Birthday:</label>
+            <input type="date" id="bday" required><br>
+
+            <label for="quantity">Quantiy:</label>
+            <input type="number" id="quantity" min="0" max="99" value="1" required><br>
+
+            <label for="title">Title:</label>
+
+            <label for="Mr.">Mr.</label>
+            <input type="radio" id="Mr." value="Mr." name="title">
+            <label for="Ms.">Ms.</label>
+            <input type="radio" id="Ms." value="Ms." name="title">
+            <label for="PhD.">PhD</label>
+            <input type="radio" id="PhD." value="PhD." name="title"><br>
+
+            <label for="payment">Payment:</label>
+            <select id="payment">
+                <option value="visa">Visa</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="giftcard">Giftcard</option>
+            </select><br>
+
+            <label for="subscribe">Subscribe:</label>
+            <input type="checkbox" id="subscribe"><br>
+
+            <label for="comment">Comment:</label>
+            <textarea id="comment" rows="3" cols="25"></textarea><br>
+
+            <label for="file">File:</label>
+            <input type="file" id="file" accept="image/png, image/jpeg, image/jpg">
+
+            <br>
+            <br>
+            <input type="reset">
+            <input type="submit">
+        </form>
+
+
+        <h1>This is my website</h1>
+        <p id="p1" class="odd">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat maiores dolorum facere. Dolor quae id, ex incidunt perspiciatis magni repellat quod doloremque deserunt temporibus velit, reiciendis modi animi eveniet quasi!</p>
+        <p id="p2" class="even">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat maiores dolorum facere. Dolor quae id, ex incidunt perspiciatis magni repellat quod doloremque deserunt temporibus velit, reiciendis modi animi eveniet quasi!</p>
+        <p id="p3" class="odd">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat maiores dolorum facere. Dolor quae id, ex incidunt perspiciatis magni repellat quod doloremque deserunt temporibus velit, reiciendis modi animi eveniet quasi!</p>
+        <p id="p4" class="even">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat maiores dolorum facere. Dolor quae id, ex incidunt perspiciatis magni repellat quod doloremque deserunt temporibus velit, reiciendis modi animi eveniet quasi!</p>
+
+
+    </main>
+
+    <!-- How to make a footer -->
+    <footer>
+        <hr>
+        Author: Dunocat639<br>
+        &copy; copyright reserved<br>
+        <small><a href="mailto: dunocat639@gmail.cat">dunocat639@gmail.cat</a></small>
+    </footer>
 
 </body>
 
