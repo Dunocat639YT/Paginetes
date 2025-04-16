@@ -1,0 +1,37 @@
+#títol {
+    text-shadow: 3px 3px 5px red, -3px -3px 5px yellow
+}
+
+#box0 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(216, 216, 216);
+    box-shadow: 3px 3px 5px;
+}
+
+.box {
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+}
+
+#box1 {
+    background-color: red;
+    margin-left: 100px;
+}
+
+#box2 {
+    background-color: blue;
+    margin-left: auto;
+}
+
+#img1 {
+    float: left;
+    margin-right: 20px;
+}
+
+#img2 {
+    float: right;
+    margin-left: 20px;
+}
