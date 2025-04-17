@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mauri Cuines</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <!-- CAPÇALERA DE LA WEB -->
+  <header>
+    <h1>Mauri</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#serveis">Serveis</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#contacte">Contacte</a>
+    </nav>
+  </header>
+
+  <!-- HERO PRINCIPAL AMB FONS -->
+  <section class="hero" data-aos="zoom-in">
+    <h2>Cuines amb caràcter</h2>
+    <p>Dissenyem i instal·lem cuines modernes a mida</p>
+    <a href="#contacte" class="boto">Demana pressupost</a>
+  </section>
+
+  <!-- SECCIÓ SOBRE L'EMPRESA -->
+  <section id="sobre" data-aos="fade-down">
+    <h3>Sobre Mauri</h3>
+    <p>Som una empresa familiar amb més de 20 anys d'experiència en el sector de les cuines. A Mauri creem espais únics, funcionals i plens d'estil per a la teva llar. Ens apassiona fer realitat la cuina dels teus somnis.</p>
+  </section>
+
+  <!-- SECCIÓ DE SERVEIS OFERITS -->
+  <section id="serveis" data-aos="fade-left">
+    <h3>Els nostres serveis</h3>
+    <ul>
+      <li>Disseny de cuines a mida</li>
+      <li>Muntatge i instal·lació</li>
+      <li>Reformes integrals de cuines</li>
+      <li>Assessorament personalitzat</li>
+      <li>Venda d'electrodomèstics de gamma alta</li>
+    </ul>
+  </section>
+
+  <!-- SECCIÓ DE GALERIA D'IMATGES -->
+  <section id="galeria" data-aos="fade-right">
+    <h3>Galeria</h3>
+    <div class="galeria-grid">
+      <img src="https://source.unsplash.com/400x300/?kitchen,modern" alt="Cuina moderna">
+      <img src="https://source.unsplash.com/400x300/?kitchen,design" alt="Disseny de cuina">
+      <img src="https://source.unsplash.com/400x300/?kitchen,interior" alt="Interior de cuina">
+      <img src="https://source.unsplash.com/400x300/?kitchen,family" alt="Cuina familiar">
+    </div>
+  </section>
+
+  <!-- SECCIÓ DE CONTACTE -->
+  <section id="contacte" data-aos="fade-up">
+    <h3>Contacte</h3>
+    <p>Adreça: Carrer de l’Exemple, 12, 25001 Lleida</p>
+    <p>Telèfon: 973 000 000</p>
+    <p>Correu: info@mauricuines.cat</p>
+
+    <!-- FORMULARI DE CONTACTE -->
+    <form>
+      <input type="text" name="nom" placeholder="El teu nom" required>
+      <input type="email" name="email" placeholder="El teu correu electrònic" required>
+      <textarea name="missatge" rows="5" placeholder="El teu missatge" required></textarea>
+      <button type="submit">Envia</button>
+    </form>
+  </section>
+
+  <!-- PEU DE PÀGINA -->
+  <footer>
+    <p>© 2025 Mauri Cuines. Tots els drets reservats.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 2000, // durada de les animacions en mil·lisegons
+      once: false     // només s'anima la primera vegada
+    });
+  </script>
+
+</script>
+</body>
+</html>
