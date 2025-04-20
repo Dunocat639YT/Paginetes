@@ -1,0 +1,87 @@
+body {
+    background-image: url(Images/4k-teachings-of-jesus-wxhmhwncxfmm9gqa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#container {
+    border: 2px solid;
+}
+
+#container~p {
+    background-color: green;
+}
+
+a:link {
+    color: lightblue;
+}
+
+a:hover {
+    color: rgb(144, 164, 171);
+    font-size: 1.1em;
+}
+
+a:active {
+    font-size: 1.1em;
+    color: darkblue;
+}
+
+a:visited {
+    color: rgb(255, 8, 8)
+}
+
+#exemple1 li:hover {
+    background-color: yellow;
+}
+
+#exemple1 li:not(:hover) {
+    background-color: rgb(224, 224, 224);
+}
+
+#exemple1 li:nth-child(3n) {
+    background-color: blue;
+}
+
+#greeting p {
+    background-color: lightblue;
+    padding: 10px;
+    display: none;
+}
+
+#greeting:hover p {
+    display: block;
+}
+
+h1::first-letter {
+    font-size: 2em;
+    font-style: italic;
+}
+
+p::first-line {
+    background-color: yellow;
+}
+
+p::selection {
+    color: white;
+    background-color: red;
+}
+
+#apple::after {
+    content: "🍎";
+}
+
+#orange::after {
+    content: "🍊";
+}
+
+#banana::after {
+    content: "🍌";
+}
+
+#fruit li::marker {
+    content: "✅";
+    color: green;
+    font-size: 1.2em
+}
